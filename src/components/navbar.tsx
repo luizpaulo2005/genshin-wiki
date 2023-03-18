@@ -32,7 +32,7 @@ export const Navbar = () => {
 
   return (
     <div className="w-full h-12 flex justify-between items-center p-3 bg-purple-500 text-white dark:bg-purple-700">
-      <p>Genshin Wiki</p>
+      <p className="text-2xl">Genshin Wiki</p>
       <div className="flex gap-2">
         {option.map(({ id, title, route }) => {
           return (
