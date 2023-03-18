@@ -18,38 +18,41 @@ export const App = () => {
     {
       id: 0,
       name: "Kamisato Ayaka",
-      image_local: "/kamisato-ayaka.webp",
+      image_local: "/characters/ayaka.png",
     },
     {
       id: 1,
       name: "Yae Miko",
-      image_local: "/yae-miko.webp",
+      image_local: "/characters/yaeMiko.jpg",
     },
     {
       id: 2,
       name: "Ganyu",
-      image_local: "/ganyu.webp",
+      image_local: "/characters/ganyu.png",
     },
-    { id: 3, name: "Raiden Shogun", image_local: "/raiden-shogun.webp" },
+    { 
+      id: 3, 
+      name: "Raiden Shogun", 
+      image_local: "/characters/raiden.jpg" },
     {
       id: 4,
       name: "Yelan",
-      image_local: "/yelan.webp",
+      image_local: "/characters/yelan.png",
     },
     {
       id: 5,
       name: "Keqing",
-      image_local: "/keqing.webp",
+      image_local: "/characters/keqing.png",
     },
     {
       id: 6,
       name: "Sangonomiya Kokomi",
-      image_local: "/sangonomiya-kokomi.webp",
+      image_local: "/characters/sangonomiya.jpg",
     },
     {
       id: 7,
       name: "Mona",
-      image_local: "/mona.webp",
+      image_local: "/characters/mona.png",
     },
   ]);
 
