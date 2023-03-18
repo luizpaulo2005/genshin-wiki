@@ -30,10 +30,11 @@ export const App = () => {
       name: "Ganyu",
       image_local: "/characters/ganyu.png",
     },
-    { 
-      id: 3, 
-      name: "Raiden Shogun", 
-      image_local: "/characters/raiden.jpg" },
+    {
+      id: 3,
+      name: "Raiden Shogun",
+      image_local: "/characters/raiden.jpg",
+    },
     {
       id: 4,
       name: "Yelan",
@@ -66,22 +67,37 @@ export const App = () => {
           </span>
           <img src="/paimon.webp" className="py-2" />
         </div>
-        
+
         <div className="flex flex-row flex-wrap">
-          <Card0/>
-          <Card1 id={characters[0].id} name={characters[0].name} image_local={characters[0].image_local}/>
+          <Card0 />
+          <Card1
+            id={characters[0].id}
+            name={characters[0].name}
+            image_local={characters[0].image_local}
+          />
         </div>
 
         <div className="flex flex-row flex-wrap">
-        <Card2 id={characters[1].id} name={characters[1].name} image_local={characters[1].image_local}/>
-        <Card3/>
+          <Card2
+            id={characters[1].id}
+            name={characters[1].name}
+            image_local={characters[1].image_local}
+          />
+          <Card3 />
         </div>
 
         <div className="flex flex-row flex-wrap">
-        <Card4 id={characters[2].id} name={characters[2].name} image_local={characters[2].image_local}/>
-        <Card5 id={characters[3].id} name={characters[3].name} image_local={characters[3].image_local}/>
+          <Card4
+            id={characters[2].id}
+            name={characters[2].name}
+            image_local={characters[2].image_local}
+          />
+          <Card5
+            id={characters[3].id}
+            name={characters[3].name}
+            image_local={characters[3].image_local}
+          />
         </div>
-
       </div>
     </div>
   );
