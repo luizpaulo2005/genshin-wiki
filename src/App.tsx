@@ -7,6 +7,10 @@ import { Card3 } from "./components/cards/card3";
 import { Card4 } from "./components/cards/card4";
 import { Card5 } from "./components/cards/card5";
 import { Creator0 } from "./components/creators/creator0";
+import { Card6 } from "./components/cards/card6";
+import { Card7 } from "./components/cards/card7";
+import { Card8 } from "./components/cards/card8";
+import { Card9 } from "./components/cards/card9";
 
 interface Character {
   id: number;
@@ -124,7 +128,27 @@ export const App = () => {
       </div>
 
       <div className="flex flex-row flex-wrap">
-        
+        <Card6 
+        id={characters[4].id}
+        name={characters[4].name}
+        image_local={characters[4].image_local}
+        />
+        <Card7 
+        id={characters[5].id}
+        name={characters[5].name}
+        image_local={characters[5].image_local}
+        />
+        <Card8 
+        id={characters[6].id}
+        name={characters[6].name}
+        image_local={characters[6].image_local}
+        />
+        <Card9 
+        id={characters[7].id}
+        name={characters[7].name}
+        image_local={characters[7].image_local}
+        />
+
       </div>
 
 
