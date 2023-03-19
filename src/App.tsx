@@ -85,7 +85,7 @@ export const App = () => {
     <div className="w-screen min-h-screen dark:bg-gray-800 dark:text-white overflow-hidden m-0">
       <Navbar />
       <div className="flex flex-col justify-center">
-        <div className="w-full py-3 px-2 text-center flex flex-col justify-center items-center bg-purple-600 dark:bg-purple-700">
+        <div className="w-full py-3 px-2 text-center flex flex-col justify-center items-center bg-purple-500 dark:bg-purple-700">
           <span className="text-3xl font-semibold text-white">
             Conheça aqui os detalhes mais interessantes do jogo.
           </span>
