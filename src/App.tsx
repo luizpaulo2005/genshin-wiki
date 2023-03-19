@@ -11,6 +11,7 @@ import { Card6 } from "./components/cards/card6";
 import { Card7 } from "./components/cards/card7";
 import { Card8 } from "./components/cards/card8";
 import { Card9 } from "./components/cards/card9";
+import { Footer } from "./components/footer";
 
 interface Character {
   id: number;
@@ -151,7 +152,7 @@ export const App = () => {
 
       </div>
 
-
+      <Footer/>
 
     </div>
   );
