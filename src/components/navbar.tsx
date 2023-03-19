@@ -39,7 +39,7 @@ export const Navbar = () => {
             <a
               key={id}
               href={route}
-              className="bg-indigo-700 py-1 px-2 rounded-md transition-colors hover:bg-indigo-500"
+              className="bg-indigo-600 py-1 px-2 rounded-md transition-colors hover:bg-indigo-500 dark:bg-indigo-700 dark:hover:bg-indigo-600"
             >
               {title}
             </a>
