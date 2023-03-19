@@ -6,11 +6,20 @@ import { Card2 } from "./components/cards/card2";
 import { Card3 } from "./components/cards/card3";
 import { Card4 } from "./components/cards/card4";
 import { Card5 } from "./components/cards/card5";
+import { Creator0 } from "./components/creators/creator0";
 
 interface Character {
   id: number;
   name: string;
   image_local: string;
+}
+
+interface Creator {
+  id: number;
+  name: string;
+  icon: string;
+  linkedin: string;
+  github: string;
 }
 
 export const App = () => {
@@ -57,6 +66,16 @@ export const App = () => {
     },
   ]);
 
+  const [creators, setCreators] = useState([
+    {
+      id: 0,
+      name: "Luiz Paulo",
+      icon: "/creatorIcon/creator0.jpeg",
+      linkedin: "https://www.linkedin.com/in/luiz-paulo-rodrigues-da-silva-santos-bab0b4247/",
+      github: "https://github.com/luizpaulo2005",
+    }
+  ]);
+
   return (
     <div className="w-screen min-h-screen dark:bg-gray-800 dark:text-white overflow-hidden m-0">
       <Navbar />
@@ -99,6 +118,17 @@ export const App = () => {
           />
         </div>
       </div>
+
+      <div className="flex flex-wrap justify-center items-center w-screen h-80 dark:bg-gray-800">
+        <Creator0 id={creators[0].id} name={creators[0].name} icon={creators[0].icon} linkedin={creators[0].linkedin} github={creators[0].github}/>
+      </div>
+
+      <div className="flex flex-row flex-wrap">
+        
+      </div>
+
+
+
     </div>
   );
 };
